@@ -6,4 +6,4 @@ having 3 neurons, layer next to it having 3 neurons, the layer next 3 and the ou
 determined by the dimension of the input data, whereas the number of neurons in the output layer is the number of classes in the dataset.
 The number of hidden layers as well as the number of neurons in each of them can be any arbitrary number. I have also tried to test the 
 effect of the type of activation function on the performance of my network. In order to change the activation function use the desired
-activation function's class object in the main.cpp file. 
+activation function's class object in the main.cpp file. Apart from this one can also set the number of iterations and the batch size for training. 1 iteration refers to the training and update of the network parameters for 1 batch. 
